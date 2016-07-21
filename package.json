@@ -4,7 +4,7 @@
   "description": "Getting Started With WEBPACK, a step by step webpack tutorial",
   "main": "app/app.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack app/app.js public/assets/js/app.js && node_modules/.bin/http-server -o"
+    "start": "node_modules/.bin/webpack app/app.js public/assets/js/app.js && node_modules/.bin/http-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/medhoover/gsw-webpack#readme",
   "dependencies": {
     "http-server": "~0.9",
+    "lodash": "^4.13.1",
     "webpack": "~1.13"
   }
 }
