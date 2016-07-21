@@ -1,0 +1,26 @@
+{
+  "name": "gsw-webpack",
+  "version": "1.0.0",
+  "description": "Getting Started With WEBPACK, a step by step webpack tutorial",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack app/app.js public/assets/js/app.js && node_modules/.bin/http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medhoover/gsw-webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Mohamed GHARSALLAH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medhoover/gsw-webpack/issues"
+  },
+  "homepage": "https://github.com/medhoover/gsw-webpack#readme",
+  "dependencies": {
+    "http-server": "~0.9",
+    "webpack": "~1.13"
+  }
+}
