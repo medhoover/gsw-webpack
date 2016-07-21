@@ -4,7 +4,7 @@
   "description": "Getting Started With WEBPACK, a step by step webpack tutorial",
   "main": "app/app.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack app/app.js public/assets/js/app.js && node_modules/.bin/http-server"
+    "start": "node_modules/.bin/webpack && node_modules/.bin/http-server"
   },
   "repository": {
     "type": "git",
