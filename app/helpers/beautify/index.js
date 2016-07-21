@@ -2,6 +2,6 @@
 var _ = require('lodash');
 
 // Only expose what you need
-module.exports = function (title) {
+module.exports = function(title) {
     return '<strong>' + _.toUpper(title) + '</strong>';
 }
