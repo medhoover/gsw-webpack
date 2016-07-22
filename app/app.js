@@ -2,20 +2,21 @@
 
 // Import your dependencies with any pattern you prefer : require, import(ES6) or CommonJs
 // Required Modules gets important only once, you can still import any module/dependency everywhere you like without worrying about duplication
-var _ = require('lodash');
-var beautify = require('./helpers/beautify');
+import * as _ from 'lodash';
+import { beautify } from './helpers/beautify';
 
-require('milligram');
+// CSS Style
+import 'milligram';
 
-var div = document.getElementById('content');
+let div = document.getElementById('content');
 
 div.innerHTML = div.innerHTML + beautify('webpack');
 
 div.style.display = 'none';
 
-var button = document.getElementsByClassName('button')[0];
+let button = document.getElementsByClassName('button')[0];
 
-window.toggleElement = function() {
+window.toggleElement = () => {
 
     if (_.isEqual(button.innerHTML, 'Show')) {
         div.style.display = 'block';
@@ -25,3 +26,4 @@ window.toggleElement = function() {
         button.innerHTML = 'Show';
     }
 }
+// JSCS Warning in the above statement (requireSemicolons: Missing semicolon after statement) Thanks to Webpack preloaders !!
