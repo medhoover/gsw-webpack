@@ -67,7 +67,7 @@ The repository contains [5 branches](https://github.com/medhoover/gsw-webpack/br
 Each Branch is a step on the build process, and the application works starting from the first one.  
 At each step you will discover new Webpack features.
 
-* Start by installing the [required dependencies] (instllation)
+* Start by installing the [required dependencies] (#instllation)
 * Checkout to first step using CLI `git checkout step-1`
 * Start the app using `npm start`
 * Check the source code to see how things works
@@ -85,7 +85,7 @@ Check [pakcage.json] (https://github.com/medhoover/gsw-webpack/blob/master/packa
 
 <a name="documentation"></a>
 #### Documentation
-I tried to add comments for each remarkable instruction, For more detailed explanation chckout the links in the next [section] (links)
+I tried to add comments for each remarkable instruction, For more detailed explanation chckout the links in the next [section] (#links)
 
 --
 
