@@ -5,7 +5,7 @@
   "main": "app/app.js",
   "scripts": {
     "start": "node_modules/.bin/webpack && node_modules/.bin/http-server",
-    "devStart": "node_modules/.bin/webpack-dev-server --hot --progress --colors --watch --content-base public/ --NODE_ENV=development"
+    "devStart": "rm -rf public/assets && NODE_ENV=development node_modules/.bin/webpack-dev-server --hot --progress --colors --watch --content-base public/"
   },
   "repository": {
     "type": "git",
