@@ -1,7 +1,9 @@
 // This is the entry file
 
+// ES6 Woo-Hoo !!
+
 // Import your dependencies with any pattern you prefer : require, import(ES6) or CommonJs
-// Required Modules gets important only once, you can still import any module/dependency everywhere you like without worrying about duplication
+// Required Modules gets imported only once, you can still import any module/dependency everywhere you like without worrying about duplication
 import * as _ from 'lodash';
 import { beautify } from './helpers/beautify';
 
