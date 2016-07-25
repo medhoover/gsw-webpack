@@ -7,12 +7,9 @@ module.exports = {
     entry: './app/app.js',
     // And the output files
     output: {
-        // Define base folder for output files
+        // Define base folder for output files, required for webpack-dev-server
         path: path.resolve(__dirname, 'public'),
-        // Define allowed path for url to access via webpack-dev-server
-        publicPath: '/assets/',
-        // Define filename based on webpack run type
-        filename: outputPath()
+        filename: 'assets/js/app.js'
     },
     // The module Object contains Options affecting normal modules, like which one must be automatically loaded.
     module: {
@@ -27,7 +24,3 @@ module.exports = {
         ]
     }
 };
-
-function outputPath() {
-    return (process.env.NODE_ENV === 'development') ? 'app.js' : 'assets/js/app.js';
-}
