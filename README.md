@@ -1,13 +1,17 @@
 # Getting Started with Webpack
 *A step by step [Webpack](https://webpack.github.io/) tutorial that drives you throught a build process of a* **Webpack Bundled** *and basic Javscript project*
 
+
+**This Repository was used during webpack presentation. The Repo might be helpfull to understand the way webpack works.**
+
 The project will help you learn the main features of Webpack, No fancy staffs, Nor complicated things, just a minimal JS logic with minimal css and html templates. The main Object is to understand **How To Webpack**.
 
 ### Table of Contents
 * [Why Webpack](#why-webpack)
-* Installation
-* How it Works
-* Useful links
+* [Installation](#installation)
+* [How it Works](#how-it-works)
+* [Documentation](#docs)
+* [Useful links](#links)
 
 
 --
@@ -41,4 +45,28 @@ I tried to extend existing module bundlers, but it wasn't possible to achieve al
 More on: [Webpack official website](http://webpack.github.io/docs/)
 
 --
+
+<a name="installation"></a>
+#### Installation 
+##### Requirement
+* Unix based system
+* Node lts version (> *4.1)
+* Npm (> *2)
+
+1. [Download](https://github.com/medhoover/gsw-webpack/archive/master.zip) or clone the Repo:
+`$ git clone https://github.com/medhoover/gsw-webpack.git`
+
+2. install dependencies: `$ npm install`
+
+--
+
+<a name="how-it-works"></a>
+#### How it Works
+
+The repository contains [5 branches](https://github.com/medhoover/gsw-webpack/branches), including the master branch which holds the final result (currently merged from step-4).  
+Each Branch is a step on the build process, and the application works starting from the first one.  
+At each step you will discover new Webpack features.
+
+--
+
 WORK IN PROGRESS...
